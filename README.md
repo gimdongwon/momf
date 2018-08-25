@@ -4,6 +4,6 @@
 
 MOntmartre Music festival have very simple purpose that this is music make happy people.
 
-![group picture](./image/IMG_2705.jpg)
+![group picture](../image/IMG_2705.jpg)
 
 made by dongwon gim
