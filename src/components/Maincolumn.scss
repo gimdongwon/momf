@@ -1,0 +1,17 @@
+.Container {
+    width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between
+}
+
+.Main-Items {
+    height: 1600px;
+    width: 320px
+}
+
+.Main-Item {
+    background-color: pink;
+    height: 500px;
+    padding-bottom: 10px
+}

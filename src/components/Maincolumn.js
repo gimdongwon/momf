@@ -1,26 +1,34 @@
-import React, { Component, Fragment } from "react";
+import React from "react";
 import "./Maincolumn.css";
 
-export default class MainColumn extends Component {
-  render() {
-    return (
-      <Fragment>
-        <div className="Container">
-          <ColumnFirst />
-          <ColumnSecond />
-          <ColumnThird />
-        </div>
-      </Fragment>
-    );
-  }
-}
+const MainColumn = () => {
+  return (
+    <div className="Container">
+      <ColumnItems />
+      <ColumnItems />
+      <ColumnItems />
+    </div>
+  );
+};
 
-export const ColumnFirst = () => {
-  return <div className="Main-Item First" />;
+const ColumnItems = () => {
+  return (
+    <div className="Main-Items">
+      <ColumnItem />
+      <ColumnItem />
+      <ColumnItem />
+    </div>
+  );
 };
-export const ColumnSecond = () => {
-  return <div className="Main-Item Second" />;
+
+const ColumnItem = () => {
+  return (
+    <div className="Main-Item">
+      <hr />
+      <h2>title</h2>
+    </div>
+  );
 };
-export const ColumnThird = () => {
-  return <div className="Main-Item Third" />;
-};
+
+export default MainColumn;
+export { ColumnItems, ColumnItem };

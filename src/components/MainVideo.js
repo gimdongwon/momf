@@ -6,12 +6,10 @@ export default class MainVideo extends Component {
     return (
       <div className="media-container">
         <iframe
-          src="https://player.vimeo.com/video/302375803?autoplay=1&loop=1"
+          src="https://www.youtube.com/embed/rEWj2esfdrg?autoplay=1&loop=1"
           frameborder="0"
-          webkitallowfullscreen
-          mozallowfullscreen
+          /* allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" */
           allowfullscreen
-          /* allow="autoplay" */
         />
       </div>
     );
