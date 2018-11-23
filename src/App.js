@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Helmet } from "react-helmet";
 import "./App.css";
-import Homepage from "./components/Homepage";
+import Main from "./components/Main";
 
 class App extends Component {
   render() {
@@ -12,7 +12,7 @@ class App extends Component {
           <title>MOMF</title>
           <link rel="canonical" href="http://mysite.com/example" />
         </Helmet>
-        <Homepage />
+        <Main />
       </div>
     );
   }
