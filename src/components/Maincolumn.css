@@ -1,0 +1,16 @@
+.Container {
+    width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between
+}
+
+.Main-Item {
+    background-color: pink;
+    height: 700px;
+    width: 320px
+}
+
+.First {}
+
+.Second {}

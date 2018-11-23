@@ -1,8 +1,14 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 import MainVideo from "./MainVideo";
+import MainColumn from "./Maincolumn";
 
 export default class Main extends Component {
   render() {
-    return <MainVideo />;
+    return (
+      <Fragment>
+        <MainVideo />
+        <MainColumn />
+      </Fragment>
+    );
   }
 }

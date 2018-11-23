@@ -11,6 +11,7 @@ export default class MainVideo extends Component {
           webkitallowfullscreen
           mozallowfullscreen
           allowfullscreen
+          /* allow="autoplay" */
         />
       </div>
     );
