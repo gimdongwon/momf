@@ -8,7 +8,7 @@ export default class MainVideo extends Component {
         <iframe
           src="https://www.youtube.com/embed/rEWj2esfdrg?autoplay=1&loop=1"
           frameborder="0"
-          /* allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" */
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         />
       </div>
