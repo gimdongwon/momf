@@ -109,10 +109,10 @@ export default class MainColumn extends Component {
   render() {
     const list = this.state.list;
     return (
-      <div className="main-column">
-        <MainItems id={1} list={list} />
-        <MainItems id={2} list={list} />
-        <MainItems id={3} list={list} />
+      <div className="main-container">
+        {[1, 2, 3].map(item => (
+          <MainItems list={list} id={item} />
+        ))}
       </div>
     );
   }
@@ -120,25 +120,32 @@ export default class MainColumn extends Component {
 
 class MainItems extends Component {
   render() {
-    console.log(this.props.id);
     let list = this.props.list;
     return (
-      <div className="mainItmes">
+      <div className="main-column">
         {this.props.id === 1 ? (
           <div className="firstColumn">
-            <p>{list.filter(item => item.id < 4).map(item => item.name)}</p>
+            {list
+              .filter(item => item.id < 4)
+              .map(item => (
+                <div className="main-item">{item.name}</div>
+              ))}
           </div>
         ) : this.props.id === 2 ? (
           <div className="secondColumn">
-            <p>
-              {list
-                .filter(item => item.id > 3 && item.id < 7)
-                .map(item => item.name)}
-            </p>
+            {list
+              .filter(item => item.id > 3 && item.id < 7)
+              .map(item => (
+                <div className="main-item">{item.name}</div>
+              ))}
           </div>
         ) : (
           <div className="thirdColumn">
-            <p>{list.filter(item => item.id > 6).map(item => item.name)}</p>
+            {list
+              .filter(item => item.id > 6)
+              .map(item => (
+                <div className="main-item">{item.name}</div>
+              ))}
           </div>
         )}
       </div>
