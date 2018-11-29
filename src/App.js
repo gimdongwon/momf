@@ -16,7 +16,7 @@ export default class App extends Component {
             <title>MOMF</title>
           </Helmet>
           <Switch>
-            <Route exact path="/Recruiting" component={() => Recruiting} />
+            <Route path="/Recruiting" component={Recruiting} />
             <Route exact path="/" component={Home} />
             <Route component={NotFound} />
           </Switch>
