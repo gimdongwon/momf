@@ -10,15 +10,75 @@
 }
 
 .main-column {
-    height: 1600px;
+    height: 1500px;
     width: 320px;
 }
 
 .main-item {
-    background-color: blanchedalmond;
-    height: 500px;
-    padding: 5px 10px;
+    text-align: start;
+    height: 400px;
+    padding: 50px 10px;
     margin-top: 20px;
+    font-size: 20px;
+    background-image: url(../../images/divider.jpg);
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-size: initial;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+
+caption {
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 10px;
+    line-height: 10px;
+}
+
+tbody {
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {}
+
+th {}
+
+td {}
+
+.btn-table {
+    font-size: 0;
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 14px;
+    padding: 14px 20px;
+    min-width: 150px;
+    line-height: 1em;
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+    font-weight: bold;
+    background: #000;
+    color: #fff;
+}
+
+.main-container .main-item table tbody tr th::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 1px;
+    right: 0;
+    top: -1px;
+    bottom: -1px;
+    background: #ed1c24;
+    opacity: 0.2;
 }
 
 

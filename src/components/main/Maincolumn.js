@@ -1,67 +1,6 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 // import { BrowserRouter as Router, Link, Route } from "react-router-dom";
 import "./Maincolumn.css";
-
-// export default class MainColumn extends Component {
-//   render() {
-//     return (
-//       <div className="main-container">
-//         <div className="main-column">
-//           <div className="main-item recruiting">
-//             <hr />
-//             <a href="Recruiting">
-//               <h2>recruiting-item</h2>
-//             </a>
-//           </div>
-//           <div className="main-item">
-//             <a href="/item">
-//               <h2>item</h2>
-//             </a>
-//           </div>
-//           <div className="main-item">
-//             <a href="character">
-//               <h2>character</h2>
-//             </a>
-//           </div>
-//         </div>
-//         <div className="main-column">
-//           <div className="main-item">
-//             <a href="character">
-//               <h2>character</h2>
-//             </a>
-//           </div>
-//           <div className="main-item">
-//             <a href="out-look-item">
-//               <h2>out-look-item</h2>
-//             </a>
-//           </div>
-//           <div className="main-item">
-//             <a href="history-item">
-//               <h2>history-item</h2>
-//             </a>
-//           </div>
-//         </div>
-//         <div className="main-column">
-//           <div className="main-item">
-//             <a href="font-item">
-//               <h2>font-item</h2>
-//             </a>
-//           </div>
-//           <div className="main-item">
-//             <a href="character">
-//               <h2>character</h2>
-//             </a>
-//           </div>
-//           <div className="main-item">
-//             <a href="notice-item">
-//               <h2>notice-item</h2>
-//             </a>
-//           </div>
-//         </div>
-//       </div>
-//     );
-//   }
-// }
 
 // 재사용 컴포넌트 이용
 
@@ -70,40 +9,24 @@ export default class MainColumn extends Component {
     list: [
       {
         id: 1,
-        name: "dongwon"
+        title: "인재채용",
+        summary:
+          "지금이 당신의 음악을 사랑하는 마음을 보여줄 때 입니다.함께 합시다!"
       },
       {
         id: 2,
-        name: "minji"
+        title: "MOMF란?",
+        summary: `Montmardre Music Festiver 
+으로써 2년에 한번씩 열리며 좋은 
+사람들과 음악을 나누는 페스티벌입니다`
       },
-      {
-        id: 3,
-        name: "Dasol"
-      },
-      {
-        id: 4,
-        name: "haesol"
-      },
-      {
-        id: 5,
-        name: "changWoo"
-      },
-      {
-        id: 6,
-        name: "jenie"
-      },
-      {
-        id: 7,
-        name: "rose"
-      },
-      {
-        id: 8,
-        name: "jisu"
-      },
-      {
-        id: 9,
-        name: "jisoo"
-      }
+      { id: 3, title: "character" },
+      { id: 4, title: "character" },
+      { id: 5, title: "언론보도" },
+      { id: 6, title: "역사" },
+      { id: 7, title: "역대 자작곡들" },
+      { id: 8, title: "character" },
+      { id: 9, title: "공지" }
     ]
   };
   render() {
@@ -118,39 +41,82 @@ export default class MainColumn extends Component {
   }
 }
 
+// component 나누기
 class MainItems extends Component {
   render() {
-    let list = this.props.list;
+    const list = this.props.list;
     return (
       <div className="main-column">
         {this.props.id === 1 ? (
-          <div className="firstColumn">
+          <Fragment>
             {list
               .filter(item => item.id < 4)
               .map(item => (
-                <div className="main-item">{item.name}</div>
+                <MainItem item={item} />
               ))}
-          </div>
+          </Fragment>
         ) : this.props.id === 2 ? (
-          <div className="secondColumn">
+          <Fragment>
             {list
               .filter(item => item.id > 3 && item.id < 7)
               .map(item => (
-                <div className="main-item">{item.name}</div>
+                <MainItem item={item} />
               ))}
-          </div>
+          </Fragment>
         ) : (
-          <div className="thirdColumn">
+          <Fragment>
             {list
               .filter(item => item.id > 6)
               .map(item => (
-                <div className="main-item">{item.name}</div>
+                <MainItem item={item} />
               ))}
-          </div>
+          </Fragment>
         )}
       </div>
     );
   }
 }
 
-export { MainItems };
+class MainItem extends Component {
+  render() {
+    const item = this.props.item;
+    return (
+      <div className="main-item">
+        <h2>{item.title}</h2>
+        <p>{item.summary}</p>
+        {item.id === 1 ? (
+          <Fragment>
+            <table>
+              <caption>음악 모집부분</caption>
+              <tbody>
+                <tr className="firstTr">
+                  <th>기타부분</th>
+                  <td>
+                    가요 cover 및 자작곡 작곡asdfasdfsadjflkdsajlkfsdajfjd
+                  </td>
+                </tr>
+                <tr>
+                  <th>보컬부분</th>
+                  <td>작사 및 보컬</td>
+                </tr>
+                <tr className="lastTr">
+                  <th>자유 악기 부분</th>
+                  <td>그외 자신이 다룰 수 있는 악기 가능</td>
+                </tr>
+              </tbody>
+            </table>
+            <div className="btn-table">
+              <a href="naver.com" className="btn">
+                지원하기
+              </a>
+            </div>
+          </Fragment>
+        ) : (
+          ""
+        )}
+      </div>
+    );
+  }
+}
+
+export { MainItems, MainItem };
