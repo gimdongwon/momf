@@ -16,8 +16,8 @@
 
 .main-item {
     text-align: start;
-    height: 400px;
-    padding: 50px 10px;
+    padding: 40px 10px;
+    padding-bottom: 20px;
     margin-top: 20px;
     font-size: 20px;
     background-image: url(../../images/divider.jpg);
@@ -32,33 +32,72 @@
     background-color: initial;
 }
 
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 0;
+    border-top: 1px solid #111111;
+    border-bottom: 1px solid #111111;
+    border-spacing: 2px;
+    margin-bottom: 40px;
+}
+
 caption {
     font-weight: bold;
     text-align: left;
     margin-bottom: 10px;
-    line-height: 10px;
+    line-height: 1em;
 }
 
 tbody {
+    display: table-row-group;
     vertical-align: middle;
     border-color: inherit;
 }
 
-tr {}
+p {
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
 
-th {}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border: 0;
+    height: 36px;
+}
 
-td {}
+th {
+    padding-right: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    border-bottom: 1px solid #d7d8da;
+    position: relative;
+}
+
+td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-left: 16px;
+    border-bottom: 1px solid #d7d8da;
+    font-size: 16px;
+}
 
 .btn-table {
     font-size: 0;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .btn {
     display: inline-block;
     font-size: 14px;
-    padding: 14px 20px;
+    padding: 12px 20px;
     min-width: 150px;
     line-height: 1em;
     text-decoration: none;
