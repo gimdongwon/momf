@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import "./Mainitem.css";
+
 const MainItem = props => {
   const item = props.item;
   return (
@@ -43,13 +44,29 @@ const MainItem = props => {
             </tbody>
           </table>
           <div className="btn-table">
-            <a href="../pages/Recruiting" className="btn">
+            <a href="../../Recruiting" className="btn">
               지원하기
             </a>
           </div>
         </Fragment>
+      ) : item.id === 2 ? (
+        <Fragment>
+          <p>
+            2년에 한번씩 개최되며 주위에 있는 음악을 좋아하는 사람들을 초대하여
+            각자의 음악을 보여줍니다.
+          </p>
+          <p>
+            그 이후 팀을 맺어 cover곡 한곡과 자작곡 한곡을 연습을 하여 약속한
+            시간에 다같이 공연을 합니다.
+          </p>
+        </Fragment>
+      ) : item.id === 3 || item.id === 4 || item.id === 8 ? (
+        <img
+          src="http://image.chosun.com/sitedata/image/201610/21/2016102101259_0.jpg"
+          width="320px"
+        />
       ) : (
-        ""
+        " "
       )}
     </div>
   );
