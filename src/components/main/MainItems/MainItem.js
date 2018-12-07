@@ -64,7 +64,15 @@ const MainItem = props => {
         <img
           src="http://image.chosun.com/sitedata/image/201610/21/2016102101259_0.jpg"
           width="320px"
+          alt="character"
         />
+      ) : item.id === 5 ? (
+        <Fragment>
+          <p>
+            August of 2011 재수시절 공원에 기타 하나 짊어지고 올라와서 고등학교
+            때 같이 기타애기했던 친구와 3시간 정도를 연주하다 내려온 기억
+          </p>
+        </Fragment>
       ) : (
         " "
       )}

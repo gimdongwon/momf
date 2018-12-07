@@ -11,8 +11,7 @@ export default class MainColumn extends Component {
       {
         id: 1,
         title: "인재채용",
-        summary:
-          "지금이 당신의 음악을 사랑하는 마음을 보여줄 때 입니다.함께 합시다!"
+        summary: `지금이 당신의 음악을 사랑하는 마음을 보여줄 때 입니다.\n\n함께 합시다!`
       },
       {
         id: 2,
@@ -23,19 +22,24 @@ export default class MainColumn extends Component {
       },
       { id: 3, title: "character" },
       { id: 4, title: "character" },
-      { id: 5, title: "언론보도" },
-      { id: 6, title: "역사" },
+      { id: 5, title: "역사" },
+      { id: 6, title: "이전의 사람들" },
       { id: 7, title: "역대 자작곡들" },
       { id: 8, title: "character" },
       { id: 9, title: "공지" }
     ]
   };
+  componentDidMount() {
+    // console.log(this.state.list.map(item => item.summary ));
+    console.log("ready");
+  }
+
   render() {
     const list = this.state.list;
     return (
       <div className="main-container">
-        {[1, 2, 3].map(item => (
-          <MainItems list={list} id={item} />
+        {[1, 2, 3].map((item, key) => (
+          <MainItems list={list} id={item} key={key} />
         ))}
       </div>
     );
@@ -52,24 +56,24 @@ const MainItems = props => {
         <Fragment>
           {list
             .filter(item => item.id < 4)
-            .map(item => (
-              <MainItem item={item} />
+            .map((item, key) => (
+              <MainItem item={item} key={key} />
             ))}
         </Fragment>
       ) : id === 2 ? (
         <Fragment>
           {list
             .filter(item => item.id > 3 && item.id < 7)
-            .map(item => (
-              <MainItem item={item} />
+            .map((item, key) => (
+              <MainItem item={item} key={key} />
             ))}
         </Fragment>
       ) : (
         <Fragment>
           {list
             .filter(item => item.id > 6)
-            .map(item => (
-              <MainItem item={item} />
+            .map((item, key) => (
+              <MainItem item={item} key={key} />
             ))}
         </Fragment>
       )}
