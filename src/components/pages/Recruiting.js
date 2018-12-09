@@ -1,7 +1,12 @@
 import React from "react";
-
-export class Recruiting extends React.Component {
+import { Link } from "react-router-dom";
+export default class Recruiting extends React.Component {
   render() {
-    return <h1>Hi Recruiting!</h1>;
+    return (
+      <React.Fragment>
+        <h1>Hi Recruiting!</h1>
+        <Link to="/">home</Link>
+      </React.Fragment>
+    );
   }
 }

@@ -68,13 +68,27 @@ const MainItem = props => {
         />
       ) : item.id === 5 ? (
         <Fragment>
+          <h2>제 1회</h2>
           <p>
             August of 2011 재수시절 공원에 기타 하나 짊어지고 올라와서 고등학교
             때 같이 기타애기했던 친구와 3시간 정도를 연주하다 내려온 기억
           </p>
         </Fragment>
+      ) : item.id === 6 ? (
+        <Fragment>
+          <ul>김동원</ul>
+          <ul>김민지</ul>
+          <ul>박창우</ul>
+        </Fragment>
+      ) : item.id === 7 ? (
+        <Fragment>
+          <ul>호빵맨</ul>
+          <ul>안생겨요</ul>
+          <ul>녹아요</ul>
+          <ul>24.5</ul>
+        </Fragment>
       ) : (
-        " "
+        <h2>홈페이지 개설!!</h2>
       )}
     </div>
   );
