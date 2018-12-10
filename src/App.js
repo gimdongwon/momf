@@ -10,6 +10,8 @@ import People from "./components/pages/People";
 import Notice from "./components/pages/Notice";
 import Ownsong from "./components/pages/Ownsong";
 import { NotFound } from "./components/pages/NotFound";
+
+import Header from "./components/Header";
 export default class App extends Component {
   render() {
     return (
@@ -19,6 +21,7 @@ export default class App extends Component {
             <meta charSet="utf-8" />
             <title>MOMF</title>
           </Helmet>
+          <Header />
           <Switch>
             <Route path="/Recruiting" component={Recruiting} />
             <Route path="/History" component={History} />
