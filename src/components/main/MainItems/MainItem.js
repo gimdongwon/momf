@@ -31,7 +31,7 @@ const MainItem = props => {
             <tbody>
               <tr>
                 <th>촬영 부분</th>
-                <td>Vlod 및 단체 영상 촬영</td>
+                <td>Vlog 및 단체 영상 촬영</td>
               </tr>
               <tr>
                 <th>편집 부분</th>

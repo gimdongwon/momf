@@ -9,7 +9,7 @@ export default class Home extends Component {
     return (
       <Fragment>
         <Header />
-        <MainVideo />
+        {/* <MainVideo /> */}
         <MainColumn />
         <Footer />
       </Fragment>
