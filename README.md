@@ -6,4 +6,8 @@ MOntmartre Music Festival have a very simple purpose that music make happy peopl
 
 ![group picture](./image/IMG_2705.JPG)
 
+## 개발일지
+
+12.10 : font-icon 사용
+
 made by dongwon gim
