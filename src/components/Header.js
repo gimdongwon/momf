@@ -20,35 +20,53 @@ export default class Hedaer extends Component {
   render() {
     return (
       <div className="menu">
-        <div className={this.state.visible ? "btnSection" : ""}>
-          <button
-            className="menuBtn"
-            onClick={this.onClick}
-            onMouseOver={this.MouseOver}
-            onMouseOut={this.MouseOut}
-          >
-            <h2>{this.state.buttonState === "on" ? "MOMF" : "ITEM"}</h2>
-          </button>
-        </div>
+        {this.state.visible ? <div className="btnSection" /> : ""}
+        <button
+          className="menuBtn"
+          onClick={this.onClick}
+          onMouseOver={this.MouseOver}
+          onMouseOut={this.MouseOut}
+        >
+          <h2>
+            {this.state.buttonState === "on"
+              ? "MOMF"
+              : this.state.visible
+              ? "X"
+              : "ITEM"}
+          </h2>
+        </button>
+
         {this.state.visible ? (
           <div className="router-menu">
             <ul>
-              <Link to="/">Home</Link>
+              <Link to="/" onClick={this.onClick}>
+                Home
+              </Link>
             </ul>
             <ul>
-              <Link to="/Recruiting">Recruiting</Link>
+              <Link to="/Recruiting" onClick={this.onClick}>
+                Recruiting
+              </Link>
             </ul>
             <ul>
-              <Link to="/History">History</Link>
+              <Link to="/History" onClick={this.onClick}>
+                History
+              </Link>
             </ul>
             <ul>
-              <Link to="/People">People</Link>
+              <Link to="/People" onClick={this.onClick}>
+                People
+              </Link>
             </ul>
             <ul>
-              <Link to="/Notice">Notice</Link>
+              <Link to="/Notice" onClick={this.onClick}>
+                Notice
+              </Link>
             </ul>
             <ul>
-              <Link to="/Ownsong">Ownsong</Link>
+              <Link to="/Ownsong" onClick={this.onClick}>
+                Ownsong
+              </Link>
             </ul>
           </div>
         ) : (
