@@ -71,8 +71,6 @@ export default class Recruiting extends React.Component {
             <p>질문이 있으시다면 카카오 플러스 친구를 등록해주세요</p>
           </div>
         </section>
-
-        <section clas />
       </section>
     );
   }
