@@ -14,8 +14,6 @@ import { NotFound } from "./components/pages/NotFound";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
-import { faTimesCircle } from "@fortawesome/free-solid-svg-icons";
-
 export default class App extends Component {
   render() {
     return (

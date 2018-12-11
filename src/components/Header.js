@@ -12,18 +12,29 @@ import "./Header.css";
 library.add(faTimesCircle, faAlignJustify, faAirFreshener);
 
 export default class Hedaer extends Component {
-  state = {
-    buttonState: "on",
-    vislble: false
-  };
+  state = { buttonState: "on", vislble: false, underline: false };
   onClick = () => {
-    this.setState({ visible: !this.state.visible });
+    this.setState({
+      visible: !this.state.visible
+    });
   };
   MouseOver = () => {
     this.setState({ buttonState: "over" });
   };
   MouseOut = () => {
     this.setState({ buttonState: "on" });
+  };
+  highlight = () => {
+    this.setState({
+      underline: !this.state.underline
+    });
+    console.log(this.state.underline);
+  };
+  outHighlight = () => {
+    this.setState({
+      underline: !this.state.underline
+    });
+    console.log(this.state.underline);
   };
   render() {
     return (
@@ -32,8 +43,8 @@ export default class Hedaer extends Component {
         <button
           className="menuBtn"
           onClick={this.onClick}
-          onMouseOver={this.MouseOver}
-          onMouseOut={this.MouseOut}
+          onMouseEnter={this.MouseOver}
+          onMouseLeave={this.MouseOut}
         >
           <h2>
             {this.state.visible ? (
@@ -49,22 +60,58 @@ export default class Hedaer extends Component {
           <div>
             <ul className="router-menu" onClick={this.onClick}>
               <ul>
-                <Link to="/">Home</Link>
+                <Link
+                  to="/"
+                  onMouseEnter={this.highlight}
+                  onMouseLeave={this.outHighlight}
+                >
+                  홈
+                </Link>
               </ul>
               <ul>
-                <Link to="/Recruiting">Recruiting</Link>
+                <Link
+                  to="/Recruiting"
+                  onMouseEnter={this.highlight}
+                  onMouseLeave={this.outHighlight}
+                >
+                  인재채용
+                </Link>
               </ul>
               <ul>
-                <Link to="/History">History</Link>
+                <Link
+                  to="/History"
+                  onMouseEnter={this.highlight}
+                  onMouseLeave={this.outHighlight}
+                >
+                  역대 MOMF
+                </Link>
               </ul>
               <ul>
-                <Link to="/People">People</Link>
+                <Link
+                  to="/People"
+                  onMouseEnter={this.highlight}
+                  onMouseLeave={this.outHighlight}
+                >
+                  사람들
+                </Link>
               </ul>
               <ul>
-                <Link to="/Notice">Notice</Link>
+                <Link
+                  to="/Notice"
+                  onMouseEnter={this.highlight}
+                  onMouseLeave={this.outHighlight}
+                >
+                  공지사항
+                </Link>
               </ul>
               <ul>
-                <Link to="/Ownsong">Ownsong</Link>
+                <Link
+                  to="/Ownsong"
+                  onMouseEnter={this.highlight}
+                  onMouseLeave={this.outHighlight}
+                >
+                  자작곡
+                </Link>
               </ul>
             </ul>
           </div>
