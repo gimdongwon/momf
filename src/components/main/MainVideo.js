@@ -5,13 +5,13 @@ export default class MainVideo extends Component {
   render() {
     return (
       <div className="media-container">
-        <iframe
-          src="https://www.youtube.com/embed/rEWj2esfdrg?autoplay=1&loop=1"
-          title="happyVideo"
+        <video
+          src="https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/MMF%20intro(optimized).mp4?alt=media&token=bf4650d7-b859-442c-960d-963b0e611be4"
+          autoPlay
         />
       </div>
     );
   }
 }
 
-// allow = "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+// loop 추가

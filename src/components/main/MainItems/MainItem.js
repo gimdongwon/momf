@@ -73,12 +73,22 @@ const MainItem = props => {
             August of 2011 재수시절 공원에 기타 하나 짊어지고 올라와서 고등학교
             때 같이 기타애기했던 친구와 3시간 정도를 연주하다 내려온 기억
           </p>
+          <div className="btn-table">
+            <a href="../../History" className="btn">
+              역사보기
+            </a>
+          </div>
         </Fragment>
       ) : item.id === 6 ? (
         <Fragment>
           <ul>김동원</ul>
           <ul>김민지</ul>
           <ul>박창우</ul>
+          <div className="btn-table">
+            <a href="../../People" className="btn">
+              역대 참가 사람들 보기
+            </a>
+          </div>
         </Fragment>
       ) : item.id === 7 ? (
         <Fragment>
@@ -86,9 +96,21 @@ const MainItem = props => {
           <ul>안생겨요</ul>
           <ul>녹아요</ul>
           <ul>24.5</ul>
+          <div className="btn-table">
+            <a href="../../Ownsong" className="btn">
+              자작곡 보기
+            </a>
+          </div>
         </Fragment>
       ) : (
-        <h2>홈페이지 개설!!</h2>
+        <Fragment>
+          <h2>홈페이지 개설!!</h2>
+          <div className="btn-table">
+            <a href="../../Notice" className="btn">
+              공지사항
+            </a>
+          </div>
+        </Fragment>
       )}
     </div>
   );
