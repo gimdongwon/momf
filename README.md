@@ -28,4 +28,6 @@ MOntmartre Music Festival have a very simple purpose that music make happy peopl
 
 ![gitflow](http://woowabros.github.io/img/2017-10-30/git-flow_overall_graph.png)
 
+- 현재 firebase이용해서 deploy완료상황
+
 made by dongwon gim
