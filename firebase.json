@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "database": {
     "rules": "database.rules.json"
   },
@@ -14,3 +15,14 @@
     "rules": "storage.rules"
   }
 }
+=======
+    "hosting": {
+        "public": "build",
+        "ignore": [
+            "firebase.json",
+            "**/.*",
+            "**/node_modules/**"
+        ]
+    }
+}
+>>>>>>> 87bb2e1f35524aa248eb165f9ed4bcd07f6238e5
