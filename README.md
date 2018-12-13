@@ -30,4 +30,6 @@ MOntmartre Music Festival have a very simple purpose that music make happy peopl
 
 - 현재 firebase이용해서 deploy완료상황
 
+- 0.5 버전 개발 완료 후 릴리즈
+
 made by dongwon gim
