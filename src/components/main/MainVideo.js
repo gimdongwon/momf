@@ -6,9 +6,8 @@ export default class MainVideo extends Component {
     return (
       <div className="media-container">
         <video
-          src="https://firebasestorage.googleapis.com/v0/b/momf-b4498.appspot.com/o/MMF%20intro(optimization).mp4?alt=media&token=989fee87-fb74-4a50-8b95-fbb4ca175845"
+          src="https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/MMF%20intro(optimized).mp4?alt=media&token=bf4650d7-b859-442c-960d-963b0e611be4"
           autoPlay
-          loop
         />
       </div>
     );
