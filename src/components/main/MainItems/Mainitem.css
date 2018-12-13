@@ -1,0 +1,105 @@
+.main-item {
+    text-align: start;
+    padding: 80px 10px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/longDivider.svg?alt=media&token=de6143e9-5e14-425c-8b23-5f983e5898fd);
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-size: initial;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 0;
+    border-top: 1px solid #111111;
+    border-bottom: 1px solid #111111;
+    border-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+caption {
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 10px;
+    line-height: 1em;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+p {
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border: 0;
+    height: 36px;
+}
+
+th {
+    padding-right: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    border-bottom: 1px solid #d7d8da;
+    position: relative;
+}
+
+td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-left: 16px;
+    border-bottom: 1px solid #d7d8da;
+    font-size: 16px;
+}
+
+.btn-table {
+    font-size: 0;
+    margin-top: 40px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 14px;
+    padding: 12px 20px;
+    min-width: 150px;
+    line-height: 1em;
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+    font-weight: bold;
+    background: #000;
+    color: #fff;
+}
+
+.main-container .main-item table tbody tr th::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 1px;
+    right: 0;
+    top: -1px;
+    bottom: -1px;
+    background: #ed1c24;
+    opacity: 0.2;
+}

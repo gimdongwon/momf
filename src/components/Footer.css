@@ -1,0 +1,35 @@
+.footer {
+    position: relative;
+    min-width: 1081px;
+    width: 1081px;
+    margin: 57px auto 0;
+    /* padding-left: 55px; */
+    padding-bottom: 60px;
+    border-top: 1px solid;
+    padding-top: 25px;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-wrap {
+    justify-content: flex-start;
+}
+
+.footer-item>address>p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 50px;
+}
+
+.siteMap {
+    justify-content: flex-end;
+}
+
+.footer-item {
+    padding-left: 100px;
+}
+
+.footer-wrap>img {
+    float: left;
+}
