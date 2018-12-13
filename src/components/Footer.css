@@ -18,8 +18,12 @@
 
 .footer-item>address>p {
     margin-top: 0px;
+<<<<<<< HEAD
     margin-bottom: 0px;
     font-size: 50px;
+=======
+    marker-end: 0px;
+>>>>>>> 8741a6a5bd7e6b4e933d8fdf528543790d1b03ac
 }
 
 .siteMap {
