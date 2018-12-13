@@ -1,21 +1,4 @@
 {
-<<<<<<< HEAD
-  "database": {
-    "rules": "database.rules.json"
-  },
-  "hosting": {
-    "public": "build",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ]
-  },
-  "storage": {
-    "rules": "storage.rules"
-  }
-}
-=======
     "hosting": {
         "public": "build",
         "ignore": [
@@ -25,4 +8,3 @@
         ]
     }
 }
->>>>>>> 87bb2e1f35524aa248eb165f9ed4bcd07f6238e5
