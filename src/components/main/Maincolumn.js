@@ -31,7 +31,7 @@ export default class MainColumn extends Component {
   };
   componentDidMount() {
     // console.log(this.state.list.map(item => item.summary ));
-    console.log("ready");
+    // console.log("ready");
   }
 
   render() {
