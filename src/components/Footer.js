@@ -16,7 +16,7 @@ export default class Footer extends Component {
             <address>
               주소: 서울특별시 서초구 서초동 몽마르뜨 공원
               <br />
-              <strong>전화번호 </strong>: 01088716296
+              <strong>전화번호 </strong>: 010 - 8871 - 6296
             </address>
             <p className="copyright">
               &copy <strong>MOMF</strong> All right reserve
