@@ -29,10 +29,6 @@ export default class MainColumn extends Component {
       { id: 9, title: "공지" }
     ]
   };
-  componentDidMount() {
-    // console.log(this.state.list.map(item => item.summary ));
-    console.log("ready");
-  }
 
   render() {
     const list = this.state.list;

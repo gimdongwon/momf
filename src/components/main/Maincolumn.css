@@ -1,5 +1,4 @@
 .main-container {
-    width: 1080px;
     margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -11,6 +10,21 @@
 
 .main-column {
     width: 320px;
+}
+
+@media screen and (max-width: 600px) {
+    .main-container {
+        display: inline;
+    }
+    .main-column {
+        margin: 10%
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .main-container {
+        width: 1080px;
+    }
 }
 
 

@@ -1,5 +1,4 @@
 .content-wrapper {
-    width: 1236px;
     margin: 0 auto;
     padding-left: 20px;
     text-align: start;
@@ -8,60 +7,81 @@
 .contents-header {
     text-align: left;
     padding-top: 70px;
-    height: 230px;
 }
 
 .contents-header>h1 {
     font-size: 94px;
 }
 
-.content-box {
-    width: 700px;
-    padding: 0 0 120px 245px;
+
+/* .content-box {
     position: relative;
-}
+} */
 
 .contents-life {
-    padding-bottom: 40px
+    padding-bottom: 40px;
 }
 
-.content-box>header {
-    width: 205px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    padding-top: 21px;
-<<<<<<< HEAD
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/shotDivider.svg?alt=media&token=dcb0e06a-902b-406e-afb1-c5217643ba34);
-=======
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/momf-b4498.appspot.com/o/shotDivider.svg?alt=media&token=3258e7b6-2426-483e-b4b0-6c3160f23573);
->>>>>>> 8741a6a5bd7e6b4e933d8fdf528543790d1b03ac
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 0 0;
+@media screen and (max-width:600px) {
+    .content-box {
+        background-image: url(https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/shotDivider.svg?alt=media&token=dcb0e06a-902b-406e-afb1-c5217643ba34);
+        background-repeat: no-repeat;
+        padding-top: 30px;
+        background-size: contain;
+        background-position: 0 0;
+    }
+    .content-box>header>h2 {
+        padding-bottom: 50px;
+    }
+    .card>p {
+        font-family: sans-serif;
+        margin-top: 30px;
+    }
+    caption {
+        font-size: 25px;
+    }
 }
 
-.content-box>.card {
-    width: 700px;
-    padding-top: 21px;
-    font-size: 16px;
-<<<<<<< HEAD
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/longDivider.svg?alt=media&token=de6143e9-5e14-425c-8b23-5f983e5898fd);
-=======
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/momf-b4498.appspot.com/o/longDivider.svg?alt=media&token=07506758-7e3d-4b98-9b95-3532da69f339);
->>>>>>> 8741a6a5bd7e6b4e933d8fdf528543790d1b03ac
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 0 0;
-}
-
-.content-box>.comment {
-    position: absolute;
-    padding-top: 21px;
-    top: 21px;
-    right: -430px;
-    font-size: 12px;
-    line-height: 19px;
-    width: 152px;
-    margin: 0 !important;
+@media screen and (min-width:601px) {
+    .content-wrapper {
+        width: 1236px;
+    }
+    .contents-header {
+        height: 230px;
+    }
+    .content-box {
+        width: 700px;
+        padding: 0 0 120px 245px;
+        position: relative;
+    }
+    .content-box>header {
+        width: 205px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        padding-top: 21px;
+        background-image: url(https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/shotDivider.svg?alt=media&token=dcb0e06a-902b-406e-afb1-c5217643ba34);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 0 0;
+    }
+    .content-box>.card {
+        width: 700px;
+        padding-top: 21px;
+        font-size: 16px;
+        background-image: url(https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/longDivider.svg?alt=media&token=de6143e9-5e14-425c-8b23-5f983e5898fd);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 0 0;
+    }
+    .content-box>.comment {
+        position: absolute;
+        padding-top: 21px;
+        top: 21px;
+        right: -430px;
+        font-size: 12px;
+        line-height: 19px;
+        width: 152px;
+        margin: 0 !important;
+    }
 }
