@@ -8,19 +8,20 @@ const MainItem = props => {
       <h2>{item.title}</h2>
       <p>{item.summary}</p>
       {item.id === 1 ? (
+        // 컴포넌트 재사용으로 바꾸어 주자 새로운 컴포넌트로 돌려쓰기
         <Fragment>
           <table>
             <caption>음악 모집부분</caption>
             <tbody>
-              <tr>
+              <tr className="tr">
                 <th>기타부분</th>
                 <td>가요 cover 및 자작곡 작곡</td>
               </tr>
-              <tr>
+              <tr className="tr">
                 <th>보컬부분</th>
                 <td>작사 및 보컬</td>
               </tr>
-              <tr>
+              <tr className="tr">
                 <th>자유 악기 부분</th>
                 <td>그외 자신이 다룰 수 있는 악기 가능</td>
               </tr>
@@ -29,15 +30,15 @@ const MainItem = props => {
           <table>
             <caption>스텝 모집부분</caption>
             <tbody>
-              <tr>
+              <tr className="tr">
                 <th>촬영 부분</th>
                 <td>Vlog 및 단체 영상 촬영</td>
               </tr>
-              <tr>
+              <tr className="tr">
                 <th>편집 부분</th>
                 <td>촬영 이후 편집 담당</td>
               </tr>
-              <tr>
+              <tr className="tr">
                 <th>자유 스텝 부분</th>
                 <td>포스터, 안내장, 케릭터 디자인 등</td>
               </tr>

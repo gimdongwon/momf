@@ -15,7 +15,7 @@
     background-color: initial;
 }
 
-table {
+.main-item>table {
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
@@ -101,8 +101,4 @@ td {
     bottom: -1px;
     background: #ed1c24;
     opacity: 0.2;
-}
-
-@media screen and (max-width:600px) {
-    .main-item {}
 }

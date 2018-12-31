@@ -17,7 +17,7 @@ export default class Recruiting extends React.Component {
             <h3>우리는 음악을 즐기길 원합니다.</h3>
             <p>
               슬픔을 기쁨으로 만들고, 기쁨을 슬픔으로 만들고, 절망하는
-              사람들에게 용기를 조고 자신감을 겸손하게 만들고 질투를 완화하는 것
+              사람들에게 용기를 주고 자신감을 겸손하게 만들고 질투를 완화하는 것
               중 세상의 어떤 것도 음악만한 것이 없다.
             </p>
             <h3>어떤 음악이든, 악기이든 환영합니다!</h3>
@@ -35,15 +35,15 @@ export default class Recruiting extends React.Component {
             <table>
               <caption>음악 모집부분</caption>
               <tbody>
-                <tr>
+                <tr className="tr">
                   <th>기타부분</th>
                   <td>가요 cover 및 자작곡 작곡</td>
                 </tr>
-                <tr>
+                <tr className="tr">
                   <th>보컬부분</th>
                   <td>작사 및 보컬</td>
                 </tr>
-                <tr>
+                <tr className="tr">
                   <th>자유 악기 부분</th>
                   <td>그외 자신이 다룰 수 있는 악기 가능</td>
                 </tr>
@@ -52,15 +52,15 @@ export default class Recruiting extends React.Component {
             <table>
               <caption>스텝 모집부분</caption>
               <tbody>
-                <tr>
+                <tr className="tr">
                   <th>촬영 부분</th>
                   <td>Vlog 및 단체 영상 촬영</td>
                 </tr>
-                <tr>
+                <tr className="tr">
                   <th>편집 부분</th>
                   <td>촬영 이후 편집 담당</td>
                 </tr>
-                <tr>
+                <tr className="tr">
                   <th>자유 스텝 부분</th>
                   <td>포스터, 안내장, 케릭터 디자인 등</td>
                 </tr>

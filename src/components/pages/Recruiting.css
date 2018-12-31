@@ -1,6 +1,7 @@
 .content-wrapper {
     margin: 0 auto;
     padding-left: 20px;
+    padding-right: 20px;
     text-align: start;
 }
 
@@ -39,6 +40,22 @@
     }
     caption {
         font-size: 25px;
+    }
+    .tr {
+        display: table-row;
+        vertical-align: inherit;
+        border-color: inherit;
+        overflow: hidden;
+        border: 0;
+        height: 36px;
+    }
+    table {
+        width: 100%;
+        border: 0;
+        border-top: 1px solid #111111;
+        border-bottom: 1px solid #111111;
+        border-spacing: 2px;
+        margin-bottom: 40px;
     }
 }
 
