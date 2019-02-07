@@ -13,8 +13,10 @@ import { NotFound } from "./components/pages/NotFound";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-
 export default class App extends Component {
+  componentDidUpdate() {
+    window.ScrollTo(0, 0);
+  }
   render() {
     return (
       <BrowserRouter>

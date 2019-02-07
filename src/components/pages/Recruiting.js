@@ -32,41 +32,41 @@ export default class Recruiting extends React.Component {
               의도를 가진 활동을 통해 경험을 쌓을 수 있습니다.
             </p>
             <p>자유 스텝 부분도 참여 가능합니다</p>
-            <table>
-              <caption>음악 모집부분</caption>
-              <tbody>
-                <tr className="tr">
-                  <th>기타부분</th>
-                  <td>가요 cover 및 자작곡 작곡</td>
-                </tr>
-                <tr className="tr">
-                  <th>보컬부분</th>
-                  <td>작사 및 보컬</td>
-                </tr>
-                <tr className="tr">
-                  <th>자유 악기 부분</th>
-                  <td>그외 자신이 다룰 수 있는 악기 가능</td>
-                </tr>
-              </tbody>
-            </table>
-            <table>
-              <caption>스텝 모집부분</caption>
-              <tbody>
-                <tr className="tr">
-                  <th>촬영 부분</th>
-                  <td>Vlog 및 단체 영상 촬영</td>
-                </tr>
-                <tr className="tr">
-                  <th>편집 부분</th>
-                  <td>촬영 이후 편집 담당</td>
-                </tr>
-                <tr className="tr">
-                  <th>자유 스텝 부분</th>
-                  <td>포스터, 안내장, 케릭터 디자인 등</td>
-                </tr>
-              </tbody>
-            </table>
           </section>
+          <table>
+            <caption>음악 모집부분</caption>
+            <tbody>
+              <tr className="tr">
+                <th>기타부분</th>
+                <td>가요 cover 및 자작곡 작곡</td>
+              </tr>
+              <tr className="tr">
+                <th>보컬부분</th>
+                <td>작사 및 보컬</td>
+              </tr>
+              <tr className="tr">
+                <th>자유 악기 부분</th>
+                <td>그외 자신이 다룰 수 있는 악기 가능</td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <caption>스텝 모집부분</caption>
+            <tbody>
+              <tr className="tr">
+                <th>촬영 부분</th>
+                <td>Vlog 및 단체 영상 촬영</td>
+              </tr>
+              <tr className="tr">
+                <th>편집 부분</th>
+                <td>촬영 이후 편집 담당</td>
+              </tr>
+              <tr className="tr">
+                <th>자유 스텝 부분</th>
+                <td>포스터, 안내장, 케릭터 디자인 등</td>
+              </tr>
+            </tbody>
+          </table>
           <div className="comment">
             <p>질문이 있으시다면 카카오 플러스 친구를 등록해주세요</p>
           </div>
