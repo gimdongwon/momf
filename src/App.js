@@ -13,6 +13,7 @@ import { NotFound } from "./components/pages/NotFound";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/pages/ScrollToTop";
 export default class App extends Component {
   componentDidUpdate() {
     window.ScrollTo(0, 0);
@@ -20,23 +21,25 @@ export default class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <div className="App">
-          <Helmet>
-            <meta charSet="utf-8" />
-            <title>MOMF</title>
-          </Helmet>
-          <Header />
-          <Switch>
-            <Route path="/Recruiting" component={Recruiting} />
-            <Route path="/History" component={History} />
-            <Route path="/People" component={People} />
-            <Route path="/Notice" component={Notice} />
-            <Route path="/Ownsong" component={Ownsong} />
-            <Route exact path="/" component={Home} />
-            <Route component={NotFound} />
-          </Switch>
-          <Footer />
-        </div>
+        <ScrollToTop>
+          <div className="App">
+            <Helmet>
+              <meta charSet="utf-8" />
+              <title>MOMF</title>
+            </Helmet>
+            <Header />
+            <Switch>
+              <Route path="/Recruiting" component={Recruiting} />
+              <Route path="/History" component={History} />
+              <Route path="/People" component={People} />
+              <Route path="/Notice" component={Notice} />
+              <Route path="/Ownsong" component={Ownsong} />
+              <Route exact path="/" component={Home} />
+              <Route component={NotFound} />
+            </Switch>
+            <Footer />
+          </div>
+        </ScrollToTop>
       </BrowserRouter>
     );
   }
