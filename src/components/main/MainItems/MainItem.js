@@ -69,7 +69,11 @@ const MainItem = props => {
         />
       ) : item.id === 5 ? (
         <Fragment>
-          <h2>사진 넣자</h2>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/2011_2.jpg?alt=media&token=24767cab-8669-44ac-b762-cf41db380b4c"
+            alt="2017_3"
+            className="Item_img"
+          />
           <p>
             선조들은 말하셨지 미래를 알고 싶거든 과거부터 알고 오너라 모든 것의
             답은 과거에 있느니라

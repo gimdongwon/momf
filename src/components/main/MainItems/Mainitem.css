@@ -102,3 +102,7 @@ td {
     background: #ed1c24;
     opacity: 0.2;
 }
+
+.Item_img {
+    border-radius: 5px;
+}

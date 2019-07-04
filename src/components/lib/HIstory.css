@@ -1,0 +1,28 @@
+.img_wrap {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+.img_wrap>img {
+    border-radius: 5px;
+}
+
+.rotate {
+    transform: rotate(-90deg);
+}
+
+.vertical_img>img {
+    border-radius: 5px;
+}
+
+@media screen and (max-width:600px) {
+    .img_wrap {
+        display: inline;
+    }
+    .vertical_img {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Recruiting.css";
+import KakaoFriend from "./kakaoFriend";
 export default class Recruiting extends React.Component {
   render() {
     return (
@@ -9,7 +10,7 @@ export default class Recruiting extends React.Component {
           <h1>채용공고</h1>
         </header>
         {/* content-box */}
-        <section className="content-box contents-life">
+        <div className="content-box contents-life">
           <header>
             <h2>우리는 원합니다</h2>
           </header>
@@ -73,13 +74,8 @@ export default class Recruiting extends React.Component {
               </a>
             </div>
           </section>
-          <div className="comment">
-            <p>질문이 있으시다면 카카오 플러스 친구를 등록해주세요</p>
-            <a href="javascript:void addPlusFriend()">
-              <img src="https://developers.kakao.com/assets/img/about/logos/plusfriend/friendadd_small_yellow_rect.png" />
-            </a>
-          </div>
-        </section>
+          <KakaoFriend />
+        </div>
       </section>
     );
   }
