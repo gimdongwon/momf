@@ -69,10 +69,10 @@ const MainItem = props => {
         />
       ) : item.id === 5 ? (
         <Fragment>
-          <h2>제 1회</h2>
+          <h2>사진 넣자</h2>
           <p>
-            August of 2011 재수시절 공원에 기타 하나 짊어지고 올라와서 고등학교
-            때 같이 기타애기했던 친구와 3시간 정도를 연주하다 내려온 기억
+            선조들은 말하셨지 미래를 알고 싶거든 과거부터 알고 오너라 모든 것의
+            답은 과거에 있느니라
           </p>
           <div className="btn-table">
             <a href="../../History" className="btn">
@@ -82,9 +82,7 @@ const MainItem = props => {
         </Fragment>
       ) : item.id === 6 ? (
         <Fragment>
-          <ul>김동원</ul>
-          <ul>김민지</ul>
-          <ul>박창우</ul>
+          <p>음악을 사랑한 사람들.. 우아하군..</p>
           <div className="btn-table">
             <a href="../../People" className="btn">
               역대 참가 사람들 보기
@@ -93,10 +91,7 @@ const MainItem = props => {
         </Fragment>
       ) : item.id === 7 ? (
         <Fragment>
-          <ul>호빵맨</ul>
-          <ul>안생겨요</ul>
-          <ul>녹아요</ul>
-          <ul>24.5</ul>
+          <p>여지껏 무슨 일이 있었던거야..??</p>
           <div className="btn-table">
             <a href="../../Ownsong" className="btn">
               자작곡 보기

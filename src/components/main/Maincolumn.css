@@ -21,6 +21,10 @@
         margin-left: auto;
         margin-right: auto;
     }
+    .btn-table {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media screen and (min-width: 1080px) {
@@ -28,6 +32,3 @@
         width: 1080px;
     }
 }
-
-
-/*# sourceMappingURL=Maincolumn.css.map */

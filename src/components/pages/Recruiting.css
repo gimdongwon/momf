@@ -14,8 +14,8 @@
     font-size: 94px;
 }
 
-.content-box {
-    position: relative;
+.comment {
+    text-align: center;
 }
 
 table {
@@ -33,13 +33,12 @@ table {
         background-repeat: no-repeat;
         padding-top: 30px;
         background-size: contain;
-        background-position: 0 0;
     }
     .content-box>header>h2 {
         padding-bottom: 50px;
     }
     .card>p {
-        font-family: sans-serif;
+        /* font-family: sans-serif; */
         margin-top: 30px;
     }
     caption {
@@ -61,6 +60,10 @@ table {
         border-spacing: 2px;
         margin-bottom: 40px;
     }
+    .comment {
+        margin: 10%;
+        text-align: center;
+    }
 }
 
 @media screen and (min-width:601px) {
@@ -71,20 +74,18 @@ table {
         height: 230px;
     }
     .content-box {
-        width: 700px;
-        padding: 0 0 120px 245px;
-        position: relative;
+        display: flex;
     }
     .content-box>header {
         width: 205px;
-        position: absolute;
+        /* position: absolute;
         top: 0px;
-        left: 0px;
+        left: 0px; */
         padding-top: 21px;
         background-image: url(https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/shotDivider.svg?alt=media&token=dcb0e06a-902b-406e-afb1-c5217643ba34);
         background-repeat: no-repeat;
         background-size: contain;
-        background-position: 0 0;
+        /* background-position: 0 0; */
     }
     .content-box>.card {
         width: 700px;
@@ -93,16 +94,36 @@ table {
         background-image: url(https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/longDivider.svg?alt=media&token=de6143e9-5e14-425c-8b23-5f983e5898fd);
         background-repeat: no-repeat;
         background-size: contain;
-        background-position: 0 0;
+        /* background-position: 0 0; */
     }
     .content-box>.comment {
-        position: absolute;
         padding-top: 21px;
-        top: 21px;
-        right: -430px;
         font-size: 12px;
         line-height: 19px;
         width: 152px;
-        margin: 0 !important;
+        margin-bottom: 10%;
     }
+}
+
+.btn_wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.recruit_btn {
+    display: inline-block;
+    min-width: 150px;
+    padding: 14px 20px;
+    font-size: 14px;
+    line-height: 1em;
+    color: #ffffff;
+    background: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    cursor: pointer
 }
