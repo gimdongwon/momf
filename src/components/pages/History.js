@@ -55,7 +55,7 @@ export default class History extends React.Component {
               />
             </div>
             <h3>2015</h3>
-            <div className="img_wrap">
+            {/* <div className="img_wrap">
               <div className="vertical_img">
                 <img
                   src="https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/2015%2F2015_1.jpeg?alt=media&token=d3187e94-2101-4590-bd28-5d66364e3d38"
@@ -72,7 +72,7 @@ export default class History extends React.Component {
                   width="250px"
                 />
               </div>
-            </div>
+            </div> */}
             <div className="img_wrap">
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/2015%2F2015_3.jpeg?alt=media&token=41706e59-0f00-4106-a700-809c76ff974f"
@@ -117,7 +117,7 @@ export default class History extends React.Component {
               />
             </div>
             <h3>2017</h3>
-            <div className="img_wrap">
+            {/* <div className="img_wrap">
               <div className="vertical_img">
                 <img
                   src="https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/2017%2F2017_1.jpeg?alt=media&token=8e6d2d74-58e2-4703-bc46-38e56617ff20"
@@ -132,19 +132,19 @@ export default class History extends React.Component {
                   height="320px"
                 />
               </div>
-            </div>
+            </div> */}
             <div className="img_wrap">
-              <img
+              {/* <img
                 src="https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/2017%2F2017_3.jpg?alt=media&token=9e77c9dc-94ea-456f-8c29-37bb35c84867"
                 alt="2017_3"
                 width="320px"
                 className="rotate"
-              />
-              {/* <img
+              /> */}
+              <img
                 src="https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/2017%2F2017_4.jpg?alt=media&token=7e3144ed-8d6f-472b-84fd-a97b71abb543"
                 alt="2017_4"
                 width="320px"
-              /> */}
+              />
             </div>
             <div className="img_wrap">
               <img
