@@ -1,7 +1,7 @@
 import React from "react";
 import "./Recruiting.css";
 import KakaoFriend from "./kakaoFriend";
-import "../lib/HIstory.css";
+import "../lib/History.css";
 export default class History extends React.Component {
   render() {
     return (
