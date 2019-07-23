@@ -19,3 +19,13 @@
 .profile p {
     margin-bottom: 25px;
 }
+
+@media screen and (max-width: 600px) {
+    .profile_wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+    .profile {
+        margin-right: 0px;
+    }
+}

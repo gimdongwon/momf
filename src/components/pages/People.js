@@ -43,20 +43,44 @@ export default class People extends React.Component {
             <h3>2013</h3>
             <div className="profile_wrap">
               <div className="profile">
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/profile%2Fman.jpg?alt=media&token=2fc471b8-4674-4ec8-b23b-4b379d4a03a6"
+                  alt="anomymous_profile"
+                  width="240px"
+                  height="240px"
+                />
                 <p>Lee danbi</p>
                 <p>참여 횟수 : 1회(2013)</p>
               </div>
               <div className="profile">
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/profile%2Fman.jpg?alt=media&token=2fc471b8-4674-4ec8-b23b-4b379d4a03a6"
+                  alt="anomymous_profile"
+                  width="240px"
+                  height="240px"
+                />
                 <p>Park minyoung</p>
                 <p>참여 횟수 : 2회(2013, 2017)</p>
               </div>
             </div>
             <div className="profile_wrap">
               <div className="profile">
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/profile%2Fman.jpg?alt=media&token=2fc471b8-4674-4ec8-b23b-4b379d4a03a6"
+                  alt="anomymous_profile"
+                  width="240px"
+                  height="240px"
+                />
                 <p>Hwang inho</p>
                 <p>참여 횟수 : 2회(2013, 2015)</p>
               </div>
               <div className="profile">
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/profile%2Fman.jpg?alt=media&token=2fc471b8-4674-4ec8-b23b-4b379d4a03a6"
+                  alt="anomymous_profile"
+                  width="240px"
+                  height="240px"
+                />
                 <p>Kim jonghoon</p>
                 <p>참여 횟수 : 1회(2013)</p>
               </div>
@@ -64,30 +88,66 @@ export default class People extends React.Component {
             <h3>2015</h3>
             <div className="profile_wrap">
               <div className="profile">
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/profile%2Fman.jpg?alt=media&token=2fc471b8-4674-4ec8-b23b-4b379d4a03a6"
+                  alt="anomymous_profile"
+                  width="240px"
+                  height="240px"
+                />
                 <p>Park changwoo</p>
                 <p>참여 횟수 : 2회(2015, 2017)</p>
               </div>
               <div className="profile">
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/profile%2Fman.jpg?alt=media&token=2fc471b8-4674-4ec8-b23b-4b379d4a03a6"
+                  alt="anomymous_profile"
+                  width="240px"
+                  height="240px"
+                />
                 <p>Kim Minji</p>
                 <p>참여 횟수 : 2회(2015, 2017)</p>
               </div>
             </div>
             <div className="profile_wrap">
               <div className="profile">
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/profile%2Fman.jpg?alt=media&token=2fc471b8-4674-4ec8-b23b-4b379d4a03a6"
+                  alt="anomymous_profile"
+                  width="240px"
+                  height="240px"
+                />
                 <p>Jung illwoong</p>
                 <p>참여 횟수 : 1회(2015)</p>
               </div>
               <div className="profile">
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/profile%2Fman.jpg?alt=media&token=2fc471b8-4674-4ec8-b23b-4b379d4a03a6"
+                  alt="anomymous_profile"
+                  width="240px"
+                  height="240px"
+                />
                 <p>Jung sejung</p>
                 <p>참여 횟수 : 1회(2015)</p>
               </div>
             </div>
             <div className="profile_wrap">
               <div className="profile">
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/profile%2Fman.jpg?alt=media&token=2fc471b8-4674-4ec8-b23b-4b379d4a03a6"
+                  alt="anomymous_profile"
+                  width="240px"
+                  height="240px"
+                />
                 <p>Lee Changmin</p>
                 <p>참여 횟수 : 1회(2015)</p>
               </div>
               <div className="profile">
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/profile%2Fman.jpg?alt=media&token=2fc471b8-4674-4ec8-b23b-4b379d4a03a6"
+                  alt="anomymous_profile"
+                  width="240px"
+                  height="240px"
+                />
                 <p>Hwang yeeun</p>
                 <p>참여 횟수 : 1회(2015)</p>
               </div>
@@ -95,26 +155,56 @@ export default class People extends React.Component {
             <h3>2017</h3>
             <div className="profile_wrap">
               <div className="profile">
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/profile%2Fman.jpg?alt=media&token=2fc471b8-4674-4ec8-b23b-4b379d4a03a6"
+                  alt="anomymous_profile"
+                  width="240px"
+                  height="240px"
+                />
                 <p>Lim seckwoo</p>
                 <p>참여 횟수 : 1회(2017)</p>
               </div>
               <div className="profile">
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/profile%2Fman.jpg?alt=media&token=2fc471b8-4674-4ec8-b23b-4b379d4a03a6"
+                  alt="anomymous_profile"
+                  width="240px"
+                  height="240px"
+                />
                 <p>Hawng junha</p>
                 <p>참여 횟수 : 1회(2017)</p>
               </div>
             </div>
             <div className="profile_wrap">
               <div className="profile">
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/profile%2Fman.jpg?alt=media&token=2fc471b8-4674-4ec8-b23b-4b379d4a03a6"
+                  alt="anomymous_profile"
+                  width="240px"
+                  height="240px"
+                />
                 <p>Lee seokyung</p>
                 <p>참여 횟수 : 1회(2017)</p>
               </div>
               <div className="profile">
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/profile%2Fman.jpg?alt=media&token=2fc471b8-4674-4ec8-b23b-4b379d4a03a6"
+                  alt="anomymous_profile"
+                  width="240px"
+                  height="240px"
+                />
                 <p>Yang heemoon</p>
                 <p>참여 횟수 : 1회(2017)</p>
               </div>
             </div>
             <div className="profile_wrap">
               <div className="profile">
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/profile%2Fman.jpg?alt=media&token=2fc471b8-4674-4ec8-b23b-4b379d4a03a6"
+                  alt="anomymous_profile"
+                  width="240px"
+                  height="240px"
+                />
                 <p>Lee daeun</p>
                 <p>참여 횟수 : 1회(2017)</p>
               </div>
