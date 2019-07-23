@@ -28,13 +28,11 @@ export default class Hedaer extends Component {
     this.setState({
       underline: !this.state.underline
     });
-    console.log(this.state.underline);
   };
   outHighlight = () => {
     this.setState({
       underline: !this.state.underline
     });
-    console.log(this.state.underline);
   };
   render() {
     return (

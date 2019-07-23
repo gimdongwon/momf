@@ -1,0 +1,14 @@
+iframe {
+    width: 100%;
+}
+
+.melts {
+    height: 360px;
+    margin-top: 5%;
+}
+
+@media screen and (max-width: 600px) {
+    .melts {
+        width: 100%;
+    }
+}

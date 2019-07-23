@@ -1,5 +1,6 @@
 import React from "react";
 import KakaoFriend from "./kakaoFriend";
+import "../lib/Ownsong.css";
 export default class Ownsong extends React.Component {
   render() {
     return (
@@ -27,6 +28,7 @@ export default class Ownsong extends React.Component {
               </a>
               <a href="https://vimeo.com">Vimeo</a>.
             </p>
+            <hr />
             <iframe
               src="https://player.vimeo.com/video/346600600"
               width="640"
@@ -34,6 +36,7 @@ export default class Ownsong extends React.Component {
               frameborder="0"
               allow="autoplay; fullscreen"
               allowfullscreen
+              className="melts"
             />
             <p>
               <a href="https://vimeo.com/346600600">녹아요</a>
