@@ -93,7 +93,7 @@ export default class Hedaer extends Component {
                   사람들
                 </Link>
               </ul>
-              <ul>
+              {/* <ul>
                 <Link
                   to="/Notice"
                   onMouseEnter={this.highlight}
@@ -101,7 +101,7 @@ export default class Hedaer extends Component {
                 >
                   공지사항
                 </Link>
-              </ul>
+              </ul> */}
               <ul>
                 <Link
                   to="/Ownsong"

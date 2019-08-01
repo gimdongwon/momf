@@ -1,3 +1,2 @@
 yarn build
-firebase serve
-firebase deploy
+firebase deploy -m $1
