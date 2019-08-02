@@ -10,7 +10,7 @@ function KakaoFriend() {
       <p>질문이 있으시다면 카카오 플러스 친구를 등록해주세요</p>
       <a href="javascript:void addPlusFriend()" sylte={pointer}>
         <img
-          // eslint-disable-next-line
+          alt="add Friend"
           src="https://developers.kakao.com/assets/img/about/logos/plusfriend/friendadd_small_yellow_rect.png"
         />
       </a>

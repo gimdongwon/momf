@@ -15,6 +15,7 @@ export default class Ownsong extends React.Component {
           <section className="card">
             <h3>2017</h3>
             <iframe
+              title="I'm not the only one"
               src="https://player.vimeo.com/video/346600003"
               width="540"
               height="548"
@@ -30,6 +31,7 @@ export default class Ownsong extends React.Component {
             </p>
             <hr />
             <iframe
+              title="Melt"
               src="https://player.vimeo.com/video/346600600"
               width="640"
               height="360"
