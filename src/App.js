@@ -9,6 +9,7 @@ import History from "./components/pages/History";
 import People from "./components/pages/People";
 import Notice from "./components/pages/Notice";
 import Ownsong from "./components/pages/Ownsong";
+import Count from "./components/pages/Count";
 import { NotFound } from "./components/pages/NotFound";
 
 import Header from "./components/Header";
@@ -34,6 +35,7 @@ export default class App extends Component {
               <Route path="/People" component={People} />
               <Route path="/Notice" component={Notice} />
               <Route path="/Ownsong" component={Ownsong} />
+              <Route path="/Count" component={Count} />
               <Route exact path="/" component={Home} />
               <Route component={NotFound} />
             </Switch>

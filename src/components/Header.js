@@ -93,6 +93,15 @@ export default class Hedaer extends Component {
                   사람들
                 </Link>
               </ul>
+              <ul>
+                <Link
+                  to="/Count"
+                  onMouseEnter={this.highlight}
+                  onMouseLeave={this.outHighlight}
+                >
+                  Count
+                </Link>
+              </ul>
               {/* <ul>
                 <Link
                   to="/Notice"
