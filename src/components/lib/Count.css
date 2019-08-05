@@ -1,0 +1,34 @@
+.card_title {
+    font-size: 300%;
+    text-align: center;
+}
+
+.card_title p {
+    display: flex;
+    justify-content: center;
+}
+
+.value {
+    font-size: 400%;
+}
+
+.time_wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.wrap {
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.accent {
+    color: #C19889
+}
+
+@media screen and (max-width: 600px) {
+    .card_title {
+        font-size: 200%;
+    }
+}

@@ -1,25 +1,33 @@
 import React from "react";
 import KakaoFriend from "./kakaoFriend";
 import "./Recruiting.css";
+import "../lib/Count.css";
 
 export default class Count extends React.Component {
   state = {
-    time: new Date().getSeconds(),
-    minute: new Date().getMinutes(),
-    hour: new Date().getHours(),
-    day: new Date().getDay(),
-    month: new Date().getMonth(),
-    year: new Date().getFullYear()
+    time: null,
+    minutes: null,
+    hours: null,
+    days: null,
+    seconds: null
   };
-  method = () => {
-    let time = new Date();
+  method = async () => {
+    const dDay = await new Date("2019, 10, 3");
+    dDay.setHours(16);
+    let now = await new Date();
+    let gap = dDay - now;
+
+    let days = Math.floor(gap / 1000 / 60 / 60 / 24);
+    let hours = Math.floor(gap / 1000 / 60 / 60 - 24 * days);
+    let minutes = Math.floor(gap / 1000 / 60 - 24 * 60 * days - 60 * hours);
+    let seconds = Math.floor(
+      gap / 1000 - 24 * 60 * 60 * days - 60 * 60 * hours - 60 * minutes
+    );
     this.setState({
-      time: time.getSeconds(),
-      minute: time.getMinutes(),
-      hour: time.getHours(),
-      day: time.getDay(),
-      month: time.getMonth(),
-      year: time.getFullYear()
+      days,
+      hours,
+      minutes,
+      seconds
     });
   };
   componentDidMount() {
@@ -36,11 +44,30 @@ export default class Count extends React.Component {
             <h2>Count</h2>
           </header>
           <section className="card">
-            <h2>
-              현재 시각 :{this.state.year} 년 {this.state.month} 월{" "}
-              {this.state.day} 일 {this.state.hour} 시{this.state.minute} 분{" "}
-              {this.state.time} 초
-            </h2>
+            <div className="card_title">
+              <p>
+                MOMF Time &nbsp;
+                <span className="accent">Is Coming.</span>
+              </p>
+            </div>
+            <div className="time_wrap">
+              <div className="wrap">
+                <div className="days value">{this.state.days}</div>
+                <div className="days_title">days</div>
+              </div>
+              <div className="wrap">
+                <div className="hours value">{this.state.hours}</div>
+                <div className="hours_title">hours</div>
+              </div>
+              <div className="wrap">
+                <div className="minutes value">{this.state.minutes}</div>
+                <div className="minutes_title">minutes</div>
+              </div>
+              <div className="wrap">
+                <div className="seconds value accent">{this.state.seconds}</div>
+                <div className="seconds_title">seconds</div>
+              </div>
+            </div>
           </section>
           <KakaoFriend />
         </section>
