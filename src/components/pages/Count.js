@@ -12,7 +12,7 @@ export default class Count extends React.Component {
     seconds: null
   };
   method = async () => {
-    const dDay = await new Date("2019, 10, 3");
+    const dDay = await new Date("2019/10/3");
     dDay.setHours(16);
     let now = await new Date();
     let gap = dDay - now;
