@@ -71,13 +71,14 @@ table {
         width: 100%;
     }
     .contents-header {
-        height: 230px;
+        /* height: 230px; */
     }
     .content-box {
         display: flex;
     }
     .content-box>header {
         width: 25%;
+        padding: 2%;
         /* position: absolute;
         top: 0px;
         left: 0px; */
@@ -94,7 +95,7 @@ table {
         background-image: url(https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/longDivider.svg?alt=media&token=de6143e9-5e14-425c-8b23-5f983e5898fd);
         background-repeat: no-repeat;
         background-size: contain;
-        /* background-position: 0 0; */
+        padding: 3%;
     }
     .content-box>.comment {
         padding-top: 21px;

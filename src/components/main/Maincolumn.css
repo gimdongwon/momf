@@ -9,7 +9,10 @@
 }
 
 .main-column {
-    width: 320px;
+    min-width: 320px;
+    width: 33%;
+    margin-right: 5%;
+    /* margin-left: 5%; */
 }
 
 @media screen and (max-width: 600px) {
