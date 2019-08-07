@@ -62,6 +62,7 @@ export default class Hedaer extends Component {
                   to="/"
                   onMouseEnter={this.highlight}
                   onMouseLeave={this.outHighlight}
+                  className="Link"
                 >
                   홈
                 </Link>
@@ -71,6 +72,7 @@ export default class Hedaer extends Component {
                   to="/Recruiting"
                   onMouseEnter={this.highlight}
                   onMouseLeave={this.outHighlight}
+                  className="Link"
                 >
                   인재채용
                 </Link>
@@ -80,6 +82,7 @@ export default class Hedaer extends Component {
                   to="/History"
                   onMouseEnter={this.highlight}
                   onMouseLeave={this.outHighlight}
+                  className="Link"
                 >
                   역대 MOMF
                 </Link>
@@ -89,6 +92,7 @@ export default class Hedaer extends Component {
                   to="/People"
                   onMouseEnter={this.highlight}
                   onMouseLeave={this.outHighlight}
+                  className="Link"
                 >
                   사람들
                 </Link>
@@ -98,6 +102,7 @@ export default class Hedaer extends Component {
                   to="/Count"
                   onMouseEnter={this.highlight}
                   onMouseLeave={this.outHighlight}
+                  className="Link"
                 >
                   Count
                 </Link>
@@ -107,6 +112,7 @@ export default class Hedaer extends Component {
                   to="/Notice"
                   onMouseEnter={this.highlight}
                   onMouseLeave={this.outHighlight}
+                  className="Link"
                 >
                   공지사항
                 </Link>
@@ -116,6 +122,7 @@ export default class Hedaer extends Component {
                   to="/Ownsong"
                   onMouseEnter={this.highlight}
                   onMouseLeave={this.outHighlight}
+                  className="Link"
                 >
                   자작곡
                 </Link>

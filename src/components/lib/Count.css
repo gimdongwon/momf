@@ -1,6 +1,11 @@
+.card {
+    margin-bottom: 20%;
+}
+
 .card_title {
     font-size: 200%;
     text-align: center;
+    /* margin-top: 20%; */
 }
 
 .card_title p {
@@ -25,6 +30,10 @@
 
 .accent {
     color: #C19889
+}
+
+.footer {
+    height: 20%;
 }
 
 @media screen and (max-width: 600px) {

@@ -9,7 +9,8 @@
     border: 1px solid #e5e5e5;
     width: 360px;
     height: 500px;
-    margin-right: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
     margin-bottom: 40px;
     display: flex;
     flex-direction: column;

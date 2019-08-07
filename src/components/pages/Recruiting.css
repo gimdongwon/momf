@@ -36,6 +36,7 @@ table {
     }
     .content-box>header>h2 {
         padding-bottom: 50px;
+        padding-top: 50px;
     }
     .card>p {
         /* font-family: sans-serif; */

@@ -64,7 +64,7 @@ const MainItem = props => {
       ) : item.id === 3 || item.id === 4 || item.id === 8 ? (
         <img
           src="http://image.chosun.com/sitedata/image/201610/21/2016102101259_0.jpg"
-          width="320px"
+          width="100%"
           alt="character"
         />
       ) : item.id === 5 ? (
@@ -73,6 +73,7 @@ const MainItem = props => {
             src="https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/2011_2.jpg?alt=media&token=24767cab-8669-44ac-b762-cf41db380b4c"
             alt="2017_3"
             className="Item_img"
+            width="100%"
           />
           <p>
             선조들은 말하셨지 미래를 알고 싶거든 과거부터 알고 오너라 모든 것의

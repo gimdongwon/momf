@@ -1,8 +1,8 @@
 .footer {
-    margin-top: 10%;
+    /* margin-top: 10%; */
     margin-right: 5%;
     margin-left: 5%;
-    /* background-color: #fafafa */
+    background-color: #fafafa;
 }
 
 @media screen and (min-width: 601px) {
@@ -26,9 +26,6 @@
     }
     .footer-item {
         padding-left: 100px;
-    }
-    .footer-wrap>img {
-        /* float: left; */
     }
 }
 

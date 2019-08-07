@@ -10,7 +10,6 @@
     width: 100%;
     height: 100%;
     background-color: rgba(17, 17, 17, 0.85);
-    ;
 }
 
 .menuBtn {
@@ -34,6 +33,8 @@
     color: #fff;
 }
 
-ul {
+ul,
+.Link {
     margin-bottom: 20px;
+    background-color: rgba(17, 17, 17, 0);
 }
