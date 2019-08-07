@@ -28,6 +28,11 @@
     text-align: center;
 }
 
+.backTitle {
+    font-size: 300%;
+    text-align: center;
+}
+
 .accent {
     color: #C19889
 }
