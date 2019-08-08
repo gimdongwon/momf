@@ -1,11 +1,10 @@
 .card {
-    margin-bottom: 20%;
+    /* margin-bottom: 20%; */
 }
 
 .card_title {
     font-size: 200%;
     text-align: center;
-    /* margin-top: 20%; */
 }
 
 .card_title p {
@@ -31,6 +30,7 @@
 .backTitle {
     font-size: 300%;
     text-align: center;
+    color: #C19889;
 }
 
 .accent {

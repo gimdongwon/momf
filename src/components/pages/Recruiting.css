@@ -71,18 +71,12 @@ table {
     .content-wrapper {
         width: 100%;
     }
-    .contents-header {
-        /* height: 230px; */
-    }
     .content-box {
         display: flex;
     }
     .content-box>header {
-        width: 25%;
+        width: 20%;
         padding: 2%;
-        /* position: absolute;
-        top: 0px;
-        left: 0px; */
         padding-top: 21px;
         background-image: url(https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/shotDivider.svg?alt=media&token=dcb0e06a-902b-406e-afb1-c5217643ba34);
         background-repeat: no-repeat;
@@ -128,4 +122,25 @@ table {
     box-sizing: border-box;
     -webkit-appearance: none;
     cursor: pointer
+}
+
+.content-box_wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+@media screen and (min-width: 1080px) {
+    .content-wrapper {
+        max-width: 1440px;
+    }
+    .content-box {
+        width: 100%;
+        max-width: 1440px;
+    }
+    .content-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
