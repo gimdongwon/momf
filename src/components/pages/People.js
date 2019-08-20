@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import KakaoFriend from "./kakaoFriend";
 import PeopleData from "./peopleData";
+import PeopleItem from "./PeopleItem";
 
 import "../lib/People.css";
 
@@ -23,161 +24,44 @@ export default class People extends Component {
             <section className="card">
               <h3>2011</h3>
               <div className="profile_wrap">
-                {this.state.first.map(item => {
-                  return (
-                    <div className="profile" key={item.name}>
-                      <img
-                        src={item.img}
-                        alt="img_profile"
-                        width="240px"
-                        height="240px"
-                      />
-                      <p>{item.name}</p>
-                      <p>{item.participation}</p>
-                      <p>{item.comment}</p>
-                    </div>
-                  );
+                {this.state.first.map((item, index) => {
+                  return <PeopleItem item={item} index={index} />;
                 })}
               </div>
               <h3>2013</h3>
-              <div className="profile_wrap">
-                {this.state.second1.map((item, index) => {
-                  return (
-                    <div className="profile" key={index}>
-                      <img
-                        src={item.img}
-                        alt="anomymous_profile"
-                        width="240px"
-                        height="240px"
-                      />
-                      <p>{item.name}</p>
-                      <p>{item.participation}</p>
-                      <p>{item.comment}</p>
-                    </div>
-                  );
-                })}
-              </div>
-              <div className="profile_wrap">
-                {this.state.second2.map((item, index) => {
-                  return (
-                    <div className="profile" key={index}>
-                      <img
-                        src={item.img}
-                        alt="anomymous_profile"
-                        width="240px"
-                        height="240px"
-                      />
-                      <p>{item.name}</p>
-                      <p>{item.participation}</p>
-                      <p>{item.comment}</p>
-                    </div>
-                  );
-                })}
-              </div>
+              {[this.state.second1, this.state.second2].map(items => {
+                return (
+                  <div className="profile_wrap">
+                    {items.map((item, index) => {
+                      return <PeopleItem item={item} index={index} />;
+                    })}
+                  </div>
+                );
+              })}
               <h3>2015</h3>
-              <div className="profile_wrap">
-                {this.state.third1.map((item, index) => {
+              {[this.state.third1, this.state.third2, this.state.third3].map(
+                items => {
                   return (
-                    <div className="profile" key={index}>
-                      <img
-                        src={item.img}
-                        alt="anomymous_profile"
-                        width="240px"
-                        height="240px"
-                      />
-                      <p>{item.name}</p>
-                      <p>{item.participation}</p>
-                      <p>{item.comment}</p>
+                    <div className="profile_wrap">
+                      {items.map((item, index) => {
+                        return <PeopleItem item={item} index={index} />;
+                      })}
                     </div>
                   );
-                })}
-              </div>
-              <div className="profile_wrap">
-                {this.state.third2.map((item, index) => {
-                  return (
-                    <div className="profile" key={index}>
-                      <img
-                        src={item.img}
-                        alt="anomymous_profile"
-                        width="240px"
-                        height="240px"
-                      />
-                      <p>{item.name}</p>
-                      <p>{item.participation}</p>
-                      <p>{item.comment}</p>
-                    </div>
-                  );
-                })}
-              </div>
-              <div className="profile_wrap">
-                {this.state.third3.map((item, index) => {
-                  return (
-                    <div className="profile" key={index}>
-                      <img
-                        src={item.img}
-                        alt="anomymous_profile"
-                        width="240px"
-                        height="240px"
-                      />
-                      <p>{item.name}</p>
-                      <p>{item.participation}</p>
-                      <p>{item.comment}</p>
-                    </div>
-                  );
-                })}
-              </div>
+                }
+              )}
               <h3>2017</h3>
-              <div className="profile_wrap">
-                {this.state.fourth1.map((item, index) => {
+              {[this.state.fourth1, this.state.fourth2, this.state.fourth3].map(
+                items => {
                   return (
-                    <div className="profile" key={index}>
-                      <img
-                        src={item.img}
-                        alt="anomymous_profile"
-                        width="240px"
-                        height="240px"
-                      />
-                      <p>{item.name}</p>
-                      <p>{item.participation}</p>
-                      <p>{item.comment}</p>
+                    <div className="profile_wrap">
+                      {items.map((item, index) => {
+                        return <PeopleItem item={item} index={index} />;
+                      })}
                     </div>
                   );
-                })}
-              </div>
-              <div className="profile_wrap">
-                {this.state.fourth2.map((item, index) => {
-                  return (
-                    <div className="profile" key={index}>
-                      <img
-                        src={item.img}
-                        alt="anomymous_profile"
-                        width="240px"
-                        height="240px"
-                      />
-                      <p>{item.name}</p>
-                      <p>{item.participation}</p>
-                      <p>{item.comment}</p>
-                    </div>
-                  );
-                })}
-              </div>
-              <div className="profile_wrap">
-                {this.state.fourth3.map((item, index) => {
-                  return (
-                    <div className="profile" key={index}>
-                      <img
-                        src={item.img}
-                        alt="anomymous_profile"
-                        width="240px"
-                        height="240px"
-                      />
-                      <p>{item.name}</p>
-                      <p>{item.participation}</p>
-                      <p>{item.comment}</p>
-                    </div>
-                  );
-                })}
-              </div>
+                }
+              )}
             </section>
             <KakaoFriend />
           </section>
