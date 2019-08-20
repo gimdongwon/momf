@@ -72,7 +72,12 @@ export default class Count extends React.Component {
                 </p>
               </div>
               {this.state.timerFinish ? (
-                <h1 className="backTitle">MOMF is started! 😍🎉🎸</h1>
+                <h1 className="backTitle">
+                  MOMF is started!{" "}
+                  <span role="img" aria-label="smile">
+                    😍🎉🎸
+                  </span>
+                </h1>
               ) : (
                 <div className="time_wrap">
                   <div className="wrap">
