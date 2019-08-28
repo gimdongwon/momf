@@ -69,6 +69,16 @@ export default class Hedaer extends Component {
               </ul>
               <ul>
                 <Link
+                  to="/Notice"
+                  onMouseEnter={this.highlight}
+                  onMouseLeave={this.outHighlight}
+                  className="Link"
+                >
+                  공지사항
+                </Link>
+              </ul>
+              <ul>
+                <Link
                   to="/Recruiting"
                   onMouseEnter={this.highlight}
                   onMouseLeave={this.outHighlight}
@@ -107,16 +117,6 @@ export default class Hedaer extends Component {
                   Count
                 </Link>
               </ul>
-              {/* <ul>
-                <Link
-                  to="/Notice"
-                  onMouseEnter={this.highlight}
-                  onMouseLeave={this.outHighlight}
-                  className="Link"
-                >
-                  공지사항
-                </Link>
-              </ul> */}
               <ul>
                 <Link
                   to="/Ownsong"
