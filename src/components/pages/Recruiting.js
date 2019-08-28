@@ -70,7 +70,7 @@ export default class Recruiting extends React.Component {
                 </tbody>
               </table>
               <div className="btn_wrap">
-                <a href="https://forms.gle/dYcgXWTM64geAvUb8">
+                <a href="https://forms.gle/JsCsLbUrMKnMQAyp9" target="_blank">
                   <button className="recruit_btn">지원하기</button>
                 </a>
               </div>
