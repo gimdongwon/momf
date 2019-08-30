@@ -26,7 +26,7 @@ export default class MainColumn extends Component {
       { id: 6, title: "people" },
       { id: 7, title: "역대 자작곡들" },
       { id: 8, title: "character" },
-      { id: 9, title: "공지" }
+      { id: 9, title: "공지사항" }
     ]
   };
 

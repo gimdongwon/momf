@@ -105,7 +105,12 @@ const MainItem = props => {
         </Fragment>
       ) : (
         <Fragment>
-          <h2>홈페이지 개설!!</h2>
+          <div className="notice_img">
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/momf-b4498.appspot.com/o/poster_first.jpg?alt=media&token=216ee96a-5667-4abf-8fac-a5abb454b6ed"
+              alt="poster_first"
+            />
+          </div>
           <div className="btn-table">
             <a href="../../Notice" className="btn">
               공지사항

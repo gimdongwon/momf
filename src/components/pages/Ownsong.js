@@ -20,9 +20,9 @@ export default class Ownsong extends React.Component {
                 src="https://player.vimeo.com/video/346600003"
                 width="540"
                 height="548"
-                frameborder="0"
+                frameBorder="0"
                 allow="autoplay; fullscreen"
-                allowfullscreen
+                allowFullScreen
               />
               <p>
                 <a href="https://vimeo.com/346600003">
@@ -36,9 +36,9 @@ export default class Ownsong extends React.Component {
                 src="https://player.vimeo.com/video/346600600"
                 width="640"
                 height="360"
-                frameborder="0"
+                frameBorder="0"
                 allow="autoplay; fullscreen"
-                allowfullscreen
+                allowFullScreen
                 className="melts"
               />
               <p>
