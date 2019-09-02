@@ -29,9 +29,9 @@ export default class Count extends React.Component {
     dDay.setHours(16);
 
     // test
-    // const dDay = await new Date("2019/8/8");
-    // dDay.setHours(10);
-    // dDay.setMinutes(40);
+    // const dDay = await new Date("2019/9/2");
+    // dDay.setHours(12);
+    // dDay.setMinutes(52);
 
     let now = await new Date();
     let gap = dDay - now;
@@ -72,12 +72,20 @@ export default class Count extends React.Component {
                 </p>
               </div>
               {this.state.timerFinish ? (
-                <h1 className="backTitle">
-                  MOMF is started!{" "}
-                  <span role="img" aria-label="smile">
-                    😍🎉🎸
-                  </span>
-                </h1>
+                <>
+                  <h1 className="backTitle">
+                    MOMF is started!{" "}
+                    <span role="img" aria-label="smile">
+                      😍🎉🎸
+                    </span>
+                  </h1>
+                  <div className="poster_wrap">
+                    <img
+                      src="https://firebasestorage.googleapis.com/v0/b/momf-b4498.appspot.com/o/poster_first.jpg?alt=media&token=216ee96a-5667-4abf-8fac-a5abb454b6ed"
+                      alt="back_poster"
+                    />
+                  </div>
+                </>
               ) : (
                 <div className="time_wrap">
                   <div className="wrap">

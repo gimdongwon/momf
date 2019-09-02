@@ -41,6 +41,10 @@
     height: 20%;
 }
 
+.poster_wrap>img {
+    width: 100%;
+}
+
 @media screen and (max-width: 600px) {
     .card_title {
         font-size: 200%;
