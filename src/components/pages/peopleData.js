@@ -90,7 +90,7 @@ const peopleData = {
     {
       name: "Park Changwoo",
       img:
-        "https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/profile%2Fman.jpg?alt=media&token=2fc471b8-4674-4ec8-b23b-4b379d4a03a6",
+        "https://firebasestorage.googleapis.com/v0/b/momf-b4498.appspot.com/o/people%2FPark%20Changwoo.JPG?alt=media&token=58c1b9c6-e26c-4178-af5d-14a73ca8a8d8",
       participation: "참여 횟수: 2회(2015, 2017)",
       comment: "none"
     }
@@ -106,7 +106,7 @@ const peopleData = {
     {
       name: "Hwang Junha",
       img:
-        "https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/profile%2Fman.jpg?alt=media&token=2fc471b8-4674-4ec8-b23b-4b379d4a03a6",
+        "https://firebasestorage.googleapis.com/v0/b/momf-b4498.appspot.com/o/people%2FHwang%20junha.jpeg?alt=media&token=3e5ff4e5-a984-4538-9f35-dcaf6daf994c",
       participation: "참여 횟수: 1회(2017)",
       comment: "none"
     }
@@ -122,7 +122,7 @@ const peopleData = {
     {
       name: "Yang Heemoon",
       img:
-        "https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/profile%2Fman.jpg?alt=media&token=2fc471b8-4674-4ec8-b23b-4b379d4a03a6",
+        "https://firebasestorage.googleapis.com/v0/b/momf-b4498.appspot.com/o/people%2FYang%20Heemoon.jpeg?alt=media&token=4a4c3f62-9c06-4498-a205-17704b103c61",
       participation: "참여 횟수: 1회(2017)",
       comment: "none"
     }
