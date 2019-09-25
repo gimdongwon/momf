@@ -40,33 +40,49 @@ export default class People extends Component {
                 );
               })}
               <h3>2015</h3>
-              {[this.state.third1, this.state.third2, this.state.third3].map(
-                (items, idx) => {
-                  return (
-                    <div className="profile_wrap" key={idx}>
-                      {items.map((item, index) => {
-                        return (
-                          <PeopleItem item={item} index={index} key={index} />
-                        );
-                      })}
-                    </div>
-                  );
-                }
-              )}
+              {[
+                this.state.third1,
+                this.state.third2,
+                this.state.third3
+              ].map((items, idx) => {
+                return (
+                  <div className="profile_wrap" key={idx}>
+                    {items.map((item, index) => {
+                      return (
+                        <PeopleItem item={item} index={index} key={index} />
+                      );
+                    })}
+                  </div>
+                );
+              })}
               <h3>2017</h3>
-              {[this.state.fourth1, this.state.fourth2, this.state.fourth3].map(
-                (items, idx) => {
-                  return (
-                    <div className="profile_wrap" key={idx}>
-                      {items.map((item, index) => {
-                        return (
-                          <PeopleItem item={item} index={index} key={index} />
-                        );
-                      })}
-                    </div>
-                  );
-                }
-              )}
+              {[
+                this.state.fourth1,
+                this.state.fourth2,
+                this.state.fourth3
+              ].map((items, idx) => {
+                return (
+                  <div className="profile_wrap" key={idx}>
+                    {items.map((item, index) => {
+                      return (
+                        <PeopleItem item={item} index={index} key={index} />
+                      );
+                    })}
+                  </div>
+                );
+              })}
+              <h3>2019</h3>
+              {[this.state.fiveth1].map((items, idx) => {
+                return (
+                  <div className="profile_wrap" key={idx}>
+                    {items.map((item, index) => {
+                      return (
+                        <PeopleItem item={item} index={index} key={index} />
+                      );
+                    })}
+                  </div>
+                );
+              })}
             </section>
             <KakaoFriend />
           </section>

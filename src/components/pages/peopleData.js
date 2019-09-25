@@ -35,7 +35,7 @@ const peopleData = {
     {
       name: "Hwang Inho",
       img:
-        "https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/profile%2Fman.jpg?alt=media&token=2fc471b8-4674-4ec8-b23b-4b379d4a03a6",
+        "https://firebasestorage.googleapis.com/v0/b/momf-b4498.appspot.com/o/people%2FHwangInho.jpg?alt=media&token=e14b9884-418f-4bfb-a653-7ce363e7ab70",
       participation: "참여 횟수: 2회(2013, 2015)",
       comment: "none"
     },
@@ -83,7 +83,7 @@ const peopleData = {
     {
       name: "Hwang Yeeun",
       img:
-        "https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/profile%2Fman.jpg?alt=media&token=2fc471b8-4674-4ec8-b23b-4b379d4a03a6",
+        "https://firebasestorage.googleapis.com/v0/b/momf-b4498.appspot.com/o/people%2FHwangYeeun.jpeg?alt=media&token=6be069b7-0185-4a87-b2f9-a1dd12ffc2a5",
       participation: "참여 횟수: 1회(2015)",
       comment: "none"
     },
@@ -133,6 +133,22 @@ const peopleData = {
       img:
         "https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/profile%2Fman.jpg?alt=media&token=2fc471b8-4674-4ec8-b23b-4b379d4a03a6",
       participation: "참여 횟수: 1회(2017)",
+      comment: "none"
+    }
+  ],
+  fiveth1: [
+    {
+      name: "Lee Sungbeen",
+      img:
+        "https://firebasestorage.googleapis.com/v0/b/momf-b4498.appspot.com/o/people%2FLeeSungbin.jpeg?alt=media&token=f604af1e-6f9d-48dc-a9c4-a38be7a09ba5",
+      participation: "참여 횟수: 1회(2019)",
+      comment: "none"
+    },
+    {
+      name: "Sul Mungjin",
+      img:
+        "https://firebasestorage.googleapis.com/v0/b/fbtestdw.appspot.com/o/profile%2Fman.jpg?alt=media&token=2fc471b8-4674-4ec8-b23b-4b379d4a03a6",
+      participation: "참여 횟수: 1회(2019)",
       comment: "none"
     }
   ]
