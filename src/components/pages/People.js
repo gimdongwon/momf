@@ -72,7 +72,13 @@ export default class People extends Component {
                 );
               })}
               <h3>2019</h3>
-              {[this.state.fiveth1].map((items, idx) => {
+              {[
+                this.state.fiveth1,
+                this.state.fiveth2,
+                this.state.fiveth3,
+                this.state.fiveth4,
+                this.state.fiveth5
+              ].map((items, idx) => {
                 return (
                   <div className="profile_wrap" key={idx}>
                     {items.map((item, index) => {
